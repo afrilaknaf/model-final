@@ -1,0 +1,1982 @@
+*{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    max-width: 100%;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: italic;
+    gap:0;
+}
+
+.bgcolor{
+    background-color: #0f6171;
+}
+.bgcolor a{
+    color: white;
+    font-size: xx-large;
+}
+.beauty{
+    background-color: #19818f;
+    width: 100%;
+    height: 2800px;
+    position: relative;
+    top: 0;
+}
+#faces img{
+    position: absolute;
+    top: 0;
+    width: 654px;
+    height: 992px;
+}
+.u-gradient{
+    position: absolute;
+    top: 60px;
+    left: 290px;
+    width: 366px;
+    height: 503px;
+    background-image:linear-gradient(#a58243, #0f6171);
+}
+#women img{
+    width: 550px;
+    height: 682px;
+    position: absolute;
+    z-index: 3;
+    top: 130px;
+    left: 390px;
+}
+#draft img{
+    position: absolute;
+    top: 220px;
+    left: 450px;
+    z-index: 2;
+}
+#words h1{
+    color: white;
+}
+#words{
+    position: absolute;
+    z-index: 4;
+    top: 600px;
+    left: 750px;
+}
+#box{
+    width: 450px;
+    height: 992px;
+    background-image:linear-gradient(#a58243, #0f6171);
+    position: absolute;
+    z-index: 2;
+    top: 930px;
+    left: 150px;
+    color: white;
+    padding-top: 200px;
+    word-spacing: 10px;
+    padding-left: 20px;
+}
+#bite{
+    width: 550px;
+    height: 492px;
+    background-image:linear-gradient(#0f6171);
+    position: absolute;
+    z-index: 3;
+    top: 1030px;
+    left: 590px;
+}
+#dart img{
+    top: 1030px;
+    left: 620px;
+    position: absolute;
+    z-index: 4;
+}
+#peacock img{
+    width: 439px;
+    height: 616px;
+    position: absolute;
+    z-index: 4;
+    top: 1100px;
+    left: 630px;
+}
+#text{
+    background-color: #a58243;
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    z-index: 5;
+    top: 1550px;
+    left: 820px;
+}
+#text h4{
+    padding: 20px;
+    color: white;
+}
+#flower img{
+    width: 500px;
+    height: 640px;
+    position: absolute;
+    z-index: 1;
+    top: 2000px;
+    left: 700px;
+}
+#big{
+    width: 650px;
+    height: 892px;
+    background-image:linear-gradient(#a58243, #0f6171);
+    position: absolute;
+    z-index: 2;
+    top: 1799px;
+    left: 90px;
+}
+#bowl{
+    width: 950px;
+    height: 452px;
+    background-image:linear-gradient(#19818f);
+    position: absolute;
+    z-index: 2;
+    top: 2109px;
+    left: 200px;
+}
+#gart img{
+     position: absolute;
+     z-index: 3;
+     top: 1990px;
+     left: 100px;
+}
+#red img{
+    position: absolute;
+    z-index: 4;
+    top: 1900px;
+    left: 170px;
+    width: 450px;
+    height: 600px;
+}
+#wow h1,p{
+    color: white;
+}
+#wow p{
+    color: white;
+}
+#wow button{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+}
+#wow button:hover{
+    background-color: white;
+    color: black;
+}
+#wow{
+    position: absolute;
+    z-index: 4;
+    top: 2200px;
+    left: 650px;
+    word-spacing: 3px;
+}
+#model{
+    width: 400px;
+    height: 90px;
+    padding: 10px 15px;
+    background-color: #a58243;
+    color: white;
+    position: absolute;
+    z-index: 5;
+    top: 2400px;
+    left: 90px;
+}
+
+
+.next{
+    background-color: #19818f;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    top: 0;
+}
+#leaves img{
+    width: 580px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 100px;
+}
+#orange{
+    width: 450px;
+    height: 492px;
+    background-image:linear-gradient(#a58243);
+    font-size: x-large;
+    color: white;
+    padding: 20px;
+    padding-top: 70px;
+    position: absolute;
+    z-index: 2;
+    top: 130px;
+    left: 160px;
+}
+#orange button{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin-top: 30px;
+}
+#bluelock{
+    width: 350px;
+    position: absolute;
+    z-index: 3;
+    top: 80px;
+    left: 650px;
+    height: 692px;
+    background-image:linear-gradient(#0f6171);
+}
+#bomb img{
+    position: absolute;
+    z-index: 4;
+    top: 70px;
+    left: 650px;
+    width: auto;
+    height: fit-content;
+}
+#actor img{
+    position: absolute;
+    z-index: 5;
+    top: 165px;
+    left: 760px;
+    width: 480px;
+    height: 654px;
+}
+#moact{
+    position: absolute;
+    z-index: 6;
+    top: 680px;
+    left: 980px;
+    width: 300px;
+    height: 70px;
+}
+#moact h3{
+    background-color: #a58243;
+    color: white;
+    padding: 20px;
+}
+
+.tech{
+    background-color: #19818f;
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    top: 0;
+}
+#herbs img{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    top: 150px;
+    left: 800px;
+    width: 400px;
+    height: 650px;
+}
+#dan img{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    z-index: 1;
+}
+#blackclover{
+    background-image: linear-gradient(#0f6171);
+    width: 800px;
+    height: 350px;
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: 300px;
+    color: white;
+    font-size: x-large;
+    padding: 20px;
+    padding-top: 120px;
+}
+#real h1{
+    color: white;
+    position: absolute;
+    z-index: 3;
+    top: 280px;
+    left: 200px;
+}
+#hair img{
+    position: absolute;
+    top: 900px;
+    left: 350px;
+    z-index: 1;
+}
+#pant h3,p{
+    color: white;
+}
+#pant p{
+    font-size: larger;
+} 
+#pant{
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    top: 1000px;
+    left: 950px;
+}
+#bleach{
+    background-image: linear-gradient(#0f6171);
+    position: absolute;
+    z-index: 3;
+    top: 970px;
+    left: 200px;
+    width: 700px;
+    height: 390px;
+}
+#fox img{
+    position: absolute;
+    z-index: 4;
+    top: 900px;
+    left: 180px;
+    width: 320px;
+    height: 400px;;
+}
+#alxendar{
+    position: absolute;
+    z-index: 5;
+    top: 1200px;
+    left: 150px;
+    background-color: #a58243;
+    width: 350px;
+    height: 70px;
+}
+#alxendar h3{
+    color: white;
+    padding: 20px;
+}
+#bat img{
+    position: absolute;
+    z-index: 4;
+    top: 900px;
+    left: 550px;
+    width: 320px;
+    height: 500px;
+}
+
+.backimages{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 600px;
+}
+#black img{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+}
+#shrap img{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+    width: 400px;
+    height: 400px;
+}
+#ben10{
+    position: absolute;
+    z-index: 3;
+    top: 140px;
+    left: 200px;
+    width: 450px;
+    height: 280px;
+    background-image: linear-gradient(#a58243);
+}
+#bolt{
+    position: absolute;
+    z-index: 4;
+    top: 110px;
+    left: 150px;
+    width: 450px;
+    height: 280px;
+    background-image: linear-gradient(#0f6171);
+    padding: 20px;
+}
+#bolt h2,p{
+    color: white;
+}#bolt p{
+    font-size: larger;
+    margin-top: 60px;
+}
+.colored{
+    background-color:#19818f;
+    width: 100%;
+    height: 1400px;
+    position: relative;
+    top: 0;
+    z-index: ;
+}
+#bunny img{
+    position: absolute;
+    z-index: 1;
+    top: 640px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+}
+#ball{
+    position: absolute;
+    z-index: 2;
+    top: 620px;
+    left: 300px;
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(#0f6171);
+}
+#bounce{
+    position: absolute;
+    z-index: 2;
+    top: 720px;
+    left: 750px;
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(#a58243,#0f6171);
+    box-sizing: border-box;
+    padding: 30px;
+}
+#bounce p{
+    margin-top: 90px;
+    font-size: x-large;
+    color: white;
+}
+#bounce button{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+#bounce button:hover{
+    background-color: white;
+    color: black;
+}
+#finial img{
+    position: absolute;
+    top: 550px;
+    left: 220px;
+    z-index: 7;
+    width: 450px;
+    height: 500px;
+}
+#some{
+    position: absolute;
+    z-index: 8;
+    top: 900px;
+    left: 100px;
+    background-color:#a58243;
+    width: 300px;
+    height: 50px;
+    padding: 15px;
+}
+#what p{
+    color: white;
+    font-size: larger;
+}
+#what{
+    position: absolute;
+    z-index: 8;
+    top: 1150px;
+    left: 100px;
+}
+.footer{
+    background-color: #0f6171;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 800px;
+}
+#roow{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer span{
+    text-align: center;
+    justify-content: center;
+}
+
+@media (min-width:350px) and (max-width:550px) {
+    .beauty{
+        background-color: #19818f;
+        width: 100%;
+        height: 3850px;
+        position: relative;
+        top: 0;
+    }
+    #faces img{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 692px;
+    }
+    .u-gradient{
+        position: absolute;
+        top: 60px;
+        left: 50px;
+        width: 306px;
+        height: 503px;
+        background-image:linear-gradient(#a58243, #0f6171);
+    }
+    #women img{
+        width: 360px;
+        height: 562px;
+        position: absolute;
+        z-index: 3;
+        top: 130px;
+        left: 50px;
+    }
+    #draft img{
+        position: absolute;
+        top: 490px;
+        left: 20px;
+        z-index: 2;
+    }
+    #words h1{
+        color: white;
+    }
+    #words{
+        position: absolute;
+        z-index: 4;
+        top: 700px;
+        left: 100px;
+    }
+    #box{
+        width: 380px;
+        height: 992px;
+        background-image:linear-gradient(#a58243, #0f6171);
+        position: absolute;
+        z-index: 2;
+        top: 930px;
+        left: 20px;
+        color: white;
+        padding-top: 200px;
+        word-spacing: 10px;
+        padding-left: 20px;
+    }
+    #bite{
+        width: 280px;
+        height: 492px;
+        background-image:linear-gradient(#0f6171);
+        position: absolute;
+        z-index: 3;
+        top: 1530px;
+        left: 60px;
+    }
+    #dart img{
+        top: 1560px;
+        left: 30px;
+        position: absolute;
+        z-index: 4;
+    }
+    #peacock img{
+        width: 320px;
+        height: 616px;
+        position: absolute;
+        z-index: 4;
+        top: 1700px;
+        left: 40px;
+    }
+    #text{
+        background-color: #a58243;
+        width: 370px;
+        height: 70px;
+        position: absolute;
+        z-index: 5;
+        top: 2250px;
+        left:20px;
+    }
+    #text h4{
+        padding: 20px;
+        color: white;
+    }
+    #flower img{
+        width: 350px;
+        height: 640px;
+        position: absolute;
+        z-index: 1;
+        top: 2930px;
+        left: 30px;
+    }
+    #big{
+        width: 350px;
+        height: 492px;
+        background-image:linear-gradient(#a58243, #0f6171);
+        position: absolute;
+        z-index: 2;
+        top: 2399px;
+        left: 30px;
+    }
+    #bowl{
+        width: 300px;
+        height: 620px;
+        background-image:linear-gradient(#19818f);
+        position: absolute;
+        z-index: 2;
+        top: 2919px;
+        left: 30px;
+    }
+    #gart img{
+         position: absolute;
+         z-index: 3;
+         top: 2650px;
+         left: 30px;
+    }
+    #red img{
+        position: absolute;
+        z-index: 4;
+        top: 2530px;
+        left: 60px;
+        width: 300px;
+        height: 300px;
+    }
+    #wow h1,p{
+        color: white;
+    }
+    #wow p{
+        color: white;
+    }
+    #wow button{
+        width: 150px;
+        height: 40px;
+        background-color: transparent;
+        color: white;
+    }
+    #wow button:hover{
+        background-color: white;
+        color: black;
+    }
+    #wow{
+        position: absolute;
+        z-index: 4;
+        top: 3100px;
+        left: 35px;
+        word-spacing: 3px;
+    }
+    #model{
+        width: 350px;
+        height: 90px;
+        padding: 10px 15px;
+        background-color: #a58243;
+        color: white;
+        position: absolute;
+        z-index: 5;
+        top: 2800px;
+        left: 30px;
+    }
+
+    .next{
+        background-color: #19818f;
+        width: 100%;
+        height: 1600px;
+        position: relative;
+        top: 0;
+    }
+    #leaves img{
+        width: 350px;
+        height: 500px;
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+        left: 30px;
+    }
+    #orange{
+        width: 350px;
+        height: 572px;
+        background-image:linear-gradient(#a58243);
+        font-size: x-large;
+        color: white;
+        padding: 20px;
+        padding-top: 70px;
+        position: absolute;
+        z-index: 2;
+        top: 85px;
+        left: 40px;
+    }
+    #orange button{
+        width: 150px;
+        height: 40px;
+        background-color: transparent;
+        color: white;
+        border-color: white;
+        margin-top: 30px;
+    }
+    #bluelock{
+        width: 350px;
+        position: absolute;
+        z-index: 3;
+        top: 800px;
+        left: 50px;
+        height: 592px;
+        background-image:linear-gradient(#0f6171);
+    }
+    #bomb img{
+        position: absolute;
+        z-index: 4;
+        top: 850px;
+        left: 0px;
+        width: auto;
+        height: fit-content;
+    }
+    #actor img{
+        position: absolute;
+        z-index: 5;
+        top: 905px;
+        left: 20px;
+        width: 350px;
+        height: 554px;
+    }
+    #moact{
+        position: absolute;
+        z-index: 6;
+        top: 1390px;
+        left: 20px;
+        width: 300px;
+        height: 70px;
+    }
+    #moact h3{
+        background-color: #a58243;
+        color: white;
+        padding: 20px;
+    }
+
+    .tech{
+        background-color: #19818f;
+        width: 100%;
+        height: 2550px;
+        position: relative;
+        top: 0;
+    }
+    #herbs img{
+        position: absolute;
+        z-index: 0;
+        top: 650px;
+        left: 60px;
+        width: 330px;
+        height: 350px;
+    }
+    #dan img{
+        position: absolute;
+        top: 0;
+        left: 0px;
+        z-index: 1;
+    }
+    #blackclover{
+        background-image: linear-gradient(#0f6171);
+        width: 350px;
+        height: 750px;
+        position: absolute;
+        z-index: 2;
+        top: 170px;
+        left: 30px;
+        color: white;
+        font-size: x-large;
+        padding: 20px;
+        padding-top: 120px;
+    }
+    #real h1{
+        color: white;
+        position: absolute;
+        z-index: 3;
+        top: 230px;
+        left: 30px;
+    }
+    #hair img{
+        position: absolute;
+        top: 1700px;
+        left:0px;
+        z-index: 1;
+    }
+    #pant h3,p{
+        color: white;
+    }
+    #pant p{
+        font-size: larger;
+    } 
+    #pant{
+        background-color: transparent;
+        position: absolute;
+        z-index: 2;
+        top: 2170px;
+        left: 50px;
+    }
+    #bleach{
+        background-image: linear-gradient(#0f6171);
+        position: absolute;
+        z-index: 3;
+        top: 1100px;
+        left: 80px;
+        width: 299px;
+        height: 700px;
+    }
+    #fox img{
+        position: absolute;
+        z-index: 4;
+        top: 1150px;
+        left: 20px;
+        width: 320px;
+        height: 400px;;
+    }
+    #alxendar{
+        position: absolute;
+        z-index: 5;
+        top: 1450px;
+        left: 20px;
+        background-color: #a58243;
+        width: 300px;
+        height: 70px;
+    }
+    #alxendar h3{
+        color: white;
+        padding: 20px;
+    }
+    #bat img{
+        position: absolute;
+        z-index: 4;
+        top: 1600px;
+        left: 20px;
+        width: 320px;
+        height: 400px;
+    }
+
+    .backimages{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 900px;
+    }
+    #black img{
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: 600px;
+    }
+    #shrap img{
+        position: absolute;
+        top: 200px;
+        left: 70px;
+        z-index: 2;
+        width: 200px;
+        height: 300px;
+    }
+    #ben10{
+        position: absolute;
+        z-index: 3;
+        top: 280px;
+        left: 130px;
+        width: 300px;
+        height: 280px;
+        background-image: linear-gradient(#a58243);
+    }
+    #bolt{
+        position: absolute;
+        z-index: 4;
+        top: 250px;
+        left: 60px;
+        width: 320px;
+        height: 280px;
+        background-image: linear-gradient(#0f6171);
+        padding: 20px;
+    }
+    #bolt h2,p{
+        color: white;
+    }#bolt p{
+        font-size: larger;
+        margin-top: 60px;
+    }
+
+    .colored{
+        background-color:#19818f;
+        width: 100%;
+        height: 2500px;
+        position: relative;
+        top: 0;
+    }
+    #bunny img{
+        position: absolute;
+        z-index: 1;
+        top: 840px;
+        left: 20px;
+        width: 300px;
+        height: 500px;
+    }
+    #ball{
+        position: absolute;
+        z-index: 2;
+        top: 800px;
+        left: 50px;
+        width: 300px;
+        height: 500px;
+        background-image: linear-gradient(#0f6171);
+    }
+    #bounce{
+        position: absolute;
+        z-index: 2;
+        top: 1700px;
+        left: 40px;
+        width: 350px;
+        height: 700px;
+        background-image: linear-gradient(#a58243,#0f6171);
+        box-sizing: border-box;
+        padding: 30px;
+    }
+    #bounce p{
+        margin-top: 90px;
+        font-size: x-large;
+        color: white;
+    }
+    #bounce button{
+        width: 150px;
+        height: 40px;
+        padding: 10px;
+        background-color: transparent;
+        color: white;
+    }
+    #bounce button:hover{
+        background-color: white;
+        color: black;
+    }
+    #finial img{
+        position: absolute;
+        top: 750px;
+        left: 100px;
+        z-index: 7;
+        width: 300px;
+        height: 500px;
+    }
+    #some{
+        position: absolute;
+        z-index: 8;
+        top: 1180px;
+        left: 20px;
+        background-color:#a58243;
+        width: 300px;
+        height: 50px;
+        padding: 15px;
+    }
+    #what p{
+        color: white;
+        font-size: larger;
+    }
+    #what{
+        position: absolute;
+        z-index: 8;
+        top: 1400px;
+        left: 20px;
+    }
+
+    .footer{
+        background-color: #0f6171;
+        width: 100%;
+        height: 500px;
+        position: relative;
+        top: 1600px;
+    }
+    #roow{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .footer span{
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width:550px) and (max-width:900px) {
+    .beauty{
+        background-color: #19818f;
+        width: 100%;
+        height: 3850px;
+        position: relative;
+        top: 0;
+    }
+    #faces img{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 692px;
+    }
+    .u-gradient{
+        position: absolute;
+        top: 60px;
+        left: 100px;
+        width: 406px;
+        height: 503px;
+        background-image:linear-gradient(#a58243, #0f6171);
+    }
+    #women img{
+        width: 450px;
+        height: 562px;
+        position: absolute;
+        z-index: 3;
+        top: 130px;
+        left: 150px;
+    }
+    #draft img{
+        position: absolute;
+        top: 490px;
+        left: 50px;
+        z-index: 2;
+    }
+    #words h1{
+        color: white;
+    }
+    #words{
+        position: absolute;
+        z-index: 4;
+        top: 600px;
+        left: 200px;
+    }
+    #box{
+        width: 550px;
+        height: 992px;
+        background-image:linear-gradient(#a58243, #0f6171);
+        position: absolute;
+        z-index: 2;
+        top: 930px;
+        left: 100px;
+        color: white;
+        padding-top: 200px;
+        word-spacing: 10px;
+        padding-left: 20px;
+    }
+    #bite{
+        width: 420px;
+        height: 492px;
+        background-image:linear-gradient(#0f6171);
+        position: absolute;
+        z-index: 3;
+        top: 1530px;
+        left: 100px;
+    }
+    #dart img{
+        top: 1560px;
+        left: 60px;
+        position: absolute;
+        z-index: 4;
+    }
+    #peacock img{
+        width: 550px;
+        height: 616px;
+        position: absolute;
+        z-index: 4;
+        top: 1700px;
+        left: 100px;
+    }
+    #text{
+        background-color: #a58243;
+        width: 400px;
+        height: 70px;
+        position: absolute;
+        z-index: 5;
+        top: 2250px;
+        left:100px;
+    }
+    #text h4{
+        padding: 20px;
+        color: white;
+    }
+
+    
+    #flower img{
+        width: 550px;
+        height: 640px;
+        position: absolute;
+        z-index: 1;
+        top: 2930px;
+        left: 100px;
+    }
+    #big{
+        width: 550px;
+        height: 492px;
+        background-image:linear-gradient(#a58243, #0f6171);
+        position: absolute;
+        z-index: 2;
+        top: 2399px;
+        left: 100px;
+    }
+    #bowl{
+        width: 400px;
+        height: 620px;
+        background-image:linear-gradient(#19818f);
+        position: absolute;
+        z-index: 2;
+        top: 2919px;
+        left: 100px;
+    }
+    #gart img{
+         position: absolute;
+         z-index: 3;
+         top: 2500px;
+         left: 100px;
+    }
+    #red img{
+        position: absolute;
+        z-index: 4;
+        top: 2500px;
+        left: 120px;
+        width: 450px;
+        height: 400px;
+    }
+    #wow h1,p{
+        color: white;
+    }
+    #wow p{
+        color: white;
+    }
+    #wow button{
+        width: 250px;
+        height: 50px;
+        background-color: transparent;
+        color: white;
+    }
+    #wow button:hover{
+        background-color: white;
+        color: black;
+    }
+    #wow{
+        position: absolute;
+        z-index: 4;
+        top: 3150px;
+        left: 105px;
+        word-spacing: 3px;
+    }
+    #model{
+        width: 350px;
+        height: 90px;
+        padding: 10px 15px;
+        background-color: #a58243;
+        color: white;
+        position: absolute;
+        z-index: 5;
+        top: 2800px;
+        left: 100px;
+    }
+
+    .next{
+        background-color: #19818f;
+        width: 100%;
+        height: 1600px;
+        position: relative;
+        top: 0;
+    }
+    #leaves img{
+        width: 550px;
+        height: 500px;
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+        left: 100px;
+    }
+    #orange{
+        width: 500px;
+        height: 572px;
+        background-image:linear-gradient(#a58243);
+        font-size: x-large;
+        color: white;
+        padding: 20px;
+        padding-top: 70px;
+        position: absolute;
+        z-index: 2;
+        top: 85px;
+        left: 110px;
+    }
+    #orange button{
+        width: 150px;
+        height: 40px;
+        background-color: transparent;
+        color: white;
+        border-color: white;
+        margin-top: 30px;
+    }
+    #bluelock{
+        width: 550px;
+        position: absolute;
+        z-index: 3;
+        top: 800px;
+        left: 100px;
+        height: 592px;
+        background-image:linear-gradient(#0f6171);
+    }
+    #bomb img{
+        position: absolute;
+        z-index: 4;
+        top: 850px;
+        left: 80px;
+        width: auto;
+        height: fit-content;
+    }
+    #actor img{
+        position: absolute;
+        z-index: 5;
+        top: 905px;
+        left: 100px;
+        width: 500px;
+        height: 554px;
+    }
+    #moact{
+        position: absolute;
+        z-index: 6;
+        top: 1390px;
+        left: 100px;
+        width: 450px;
+        height: 70px;
+    }
+    #moact h3{
+        background-color: #a58243;
+        color: white;
+        padding: 20px;
+    }
+
+    .tech{
+        background-color: #19818f;
+        width: 100%;
+        height: 2550px;
+        position: relative;
+        top: 0;
+    }
+    #herbs img{
+        position: absolute;
+        z-index: 0;
+        top: 650px;
+        left: 140px;
+        width: 500px;
+        height: 350px;
+    }
+    #dan img{
+        position: absolute;
+        top: 0;
+        left: 30px;
+        z-index: 1;
+    }
+    #blackclover{
+        background-image: linear-gradient(#0f6171);
+        width: 500px;
+        height: 650px;
+        position: absolute;
+        z-index: 2;
+        top: 170px;
+        left: 120px;
+        color: white;
+        font-size: x-large;
+        padding: 20px;
+        padding-top: 120px;
+    }
+    #real h1{
+        color: white;
+        position: absolute;
+        z-index: 3;
+        top: 230px;
+        left: 120px;
+    }
+    #hair img{
+        position: absolute;
+        top: 1700px;
+        left:30px;
+        z-index: 1;
+    }
+    #pant h3,p{
+        color: white;
+    }
+    #pant p{
+        font-size: larger;
+    } 
+    #pant{
+        background-color: transparent;
+        position: absolute;
+        z-index: 2;
+        top: 2170px;
+        left: 130px;
+    }
+    #bleach{
+        background-image: linear-gradient(#0f6171);
+        position: absolute;
+        z-index: 3;
+        top: 1100px;
+        left: 130px;
+        width: 500px;
+        height: 700px;
+    }
+    #fox img{
+        position: absolute;
+        z-index: 4;
+        top: 1150px;
+        left: 90px;
+        width: 470px;
+        height: 420px;;
+    }
+    #alxendar{
+        position: absolute;
+        z-index: 5;
+        top: 1450px;
+        left: 91px;
+        background-color: #a58243;
+        width: 350px;
+        height: 70px;
+    }
+    #alxendar h3{
+        color: white;
+        padding: 20px;
+    }
+    #bat img{
+        position: absolute;
+        z-index: 4;
+        top: 1600px;
+        left: 100px;
+        width: 470px;
+        height: 420px;
+    }
+
+    .backimages{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 900px;
+    }
+    #black img{
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: 600px;
+    }
+    #shrap img{
+        position: absolute;
+        top: 200px;
+        left: 120px;
+        z-index: 2;
+        width: 300px;
+        height: 300px;
+    }
+    #ben10{
+        position: absolute;
+        z-index: 3;
+        top: 280px;
+        left: 180px;
+        width: 400px;
+        height: 280px;
+        background-image: linear-gradient(#a58243);
+    }
+    #bolt{
+        position: absolute;
+        z-index: 4;
+        top: 250px;
+        left: 110px;
+        width: 420px;
+        height: 330px;
+        background-image: linear-gradient(#0f6171);
+        padding: 20px;
+    }
+    #bolt h2,p{
+        color: white;
+    }#bolt p{
+        font-size: larger;
+        margin-top: 60px;
+    }
+
+    .colored{
+        background-color:#19818f;
+        width: 100%;
+        height: 2500px;
+        position: relative;
+        top: 0;
+    }
+    #bunny img{
+        position: absolute;
+        z-index: 1;
+        top: 840px;
+        left: 120px;
+        width: 470px;
+        height: 500px;
+    }
+    #ball{
+        position: absolute;
+        z-index: 2;
+        top: 800px;
+        left: 150px;
+        width: 470px;
+        height: 500px;
+        background-image: linear-gradient(#0f6171);
+    }
+    #bounce{
+        position: absolute;
+        z-index: 2;
+        top: 1700px;
+        left: 140px;
+        width: 550px;
+        height: 700px;
+        background-image: linear-gradient(#a58243,#0f6171);
+        box-sizing: border-box;
+        padding: 30px;
+    }
+    #bounce p{
+        margin-top: 90px;
+        font-size: x-large;
+        color: white;
+    }
+    #bounce button{
+        width: 150px;
+        height: 40px;
+        padding: 10px;
+        background-color: transparent;
+        color: white;
+    }
+    #bounce button:hover{
+        background-color: white;
+        color: black;
+    }
+    #finial img{
+        position: absolute;
+        top: 750px;
+        left: 200px;
+        z-index: 7;
+        width: 470px;
+        height: 500px;
+    }
+    #some{
+        position: absolute;
+        z-index: 8;
+        top: 1180px;
+        left: 120px;
+        background-color:#a58243;
+        width: 500px;
+        height: 50px;
+        padding: 15px;
+    }
+    #what p{
+        color: white;
+        font-size: larger;
+    }
+    #what{
+        position: absolute;
+        z-index: 8;
+        top: 1400px;
+        left: 150px;
+    }
+
+    .footer{
+        background-color: #0f6171;
+        width: 100%;
+        height: 500px;
+        position: relative;
+        top: 1600px;
+    }
+    #roow{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .footer span{
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width:900px) and (max-width:1200px){
+    .bgcolor{
+        background-color: #0f6171;
+    }
+    .bgcolor a{
+        color: white;
+        font-size: xx-large;
+    }
+    .beauty{
+        background-color: #19818f;
+        width: 100%;
+        height: 2800px;
+        position: relative;
+        top: 0;
+    }
+    #faces img{
+        position: absolute;
+        top: 0;
+        width: 654px;
+        height: 992px;
+    }
+    .u-gradient{
+        position: absolute;
+        top: 60px;
+        left: 290px;
+        width: 366px;
+        height: 503px;
+        background-image:linear-gradient(#a58243, #0f6171);
+    }
+    #women img{
+        width: 550px;
+        height: 682px;
+        position: absolute;
+        z-index: 3;
+        top: 130px;
+        left: 390px;
+    }
+    #draft img{
+        position: absolute;
+        top: 220px;
+        left: 450px;
+        z-index: 2;
+    }
+    #words h1{
+        color: white;
+    }
+    #words{
+        position: absolute;
+        z-index: 4;
+        top: 600px;
+        left: 750px;
+    }
+    #box{
+        width: 450px;
+        height: 992px;
+        background-image:linear-gradient(#a58243, #0f6171);
+        position: absolute;
+        z-index: 2;
+        top: 930px;
+        left: 150px;
+        color: white;
+        padding-top: 200px;
+        word-spacing: 10px;
+        padding-left: 20px;
+    }
+    #bite{
+        width: 550px;
+        height: 492px;
+        background-image:linear-gradient(#0f6171);
+        position: absolute;
+        z-index: 3;
+        top: 1030px;
+        left: 590px;
+    }
+    #dart img{
+        top: 1030px;
+        left: 620px;
+        position: absolute;
+        z-index: 4;
+    }
+    #peacock img{
+        width: 439px;
+        height: 616px;
+        position: absolute;
+        z-index: 4;
+        top: 1100px;
+        left: 630px;
+    }
+    #text{
+        background-color: #a58243;
+        width: 400px;
+        height: 70px;
+        position: absolute;
+        z-index: 5;
+        top: 1550px;
+        left: 820px;
+    }
+    #text h4{
+        padding: 20px;
+        color: white;
+    }
+    #flower img{
+        width: 500px;
+        height: 640px;
+        position: absolute;
+        z-index: 1;
+        top: 2000px;
+        left: 700px;
+    }
+    #big{
+        width: 650px;
+        height: 892px;
+        background-image:linear-gradient(#a58243, #0f6171);
+        position: absolute;
+        z-index: 2;
+        top: 1799px;
+        left: 90px;
+    }
+    #bowl{
+        width: 950px;
+        height: 452px;
+        background-image:linear-gradient(#19818f);
+        position: absolute;
+        z-index: 2;
+        top: 2109px;
+        left: 200px;
+    }
+    #gart img{
+         position: absolute;
+         z-index: 3;
+         top: 1990px;
+         left: 100px;
+    }
+    #red img{
+        position: absolute;
+        z-index: 4;
+        top: 1900px;
+        left: 170px;
+        width: 450px;
+        height: 600px;
+    }
+    #wow h1,p{
+        color: white;
+    }
+    #wow p{
+        color: white;
+    }
+    #wow button{
+        width: 150px;
+        height: 40px;
+        background-color: transparent;
+        color: white;
+    }
+    #wow button:hover{
+        background-color: white;
+        color: black;
+    }
+    #wow{
+        position: absolute;
+        z-index: 4;
+        top: 2200px;
+        left: 650px;
+        word-spacing: 3px;
+    }
+    #model{
+        width: 400px;
+        height: 90px;
+        padding: 10px 15px;
+        background-color: #a58243;
+        color: white;
+        position: absolute;
+        z-index: 5;
+        top: 2400px;
+        left: 90px;
+    }
+    
+    
+    .next{
+        background-color: #19818f;
+        width: 100%;
+        height: 900px;
+        position: relative;
+        top: 0;
+    }
+    #leaves img{
+        width: 580px;
+        height: 500px;
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+        left: 100px;
+    }
+    #orange{
+        width: 450px;
+        height: 492px;
+        background-image:linear-gradient(#a58243);
+        font-size: x-large;
+        color: white;
+        padding: 20px;
+        padding-top: 70px;
+        position: absolute;
+        z-index: 2;
+        top: 130px;
+        left: 160px;
+    }
+    #orange button{
+        width: 150px;
+        height: 40px;
+        background-color: transparent;
+        color: white;
+        border-color: white;
+        margin-top: 30px;
+    }
+    #bluelock{
+        width: 350px;
+        position: absolute;
+        z-index: 3;
+        top: 80px;
+        left: 650px;
+        height: 692px;
+        background-image:linear-gradient(#0f6171);
+    }
+    #bomb img{
+        position: absolute;
+        z-index: 4;
+        top: 70px;
+        left: 650px;
+        width: auto;
+        height: fit-content;
+    }
+    #actor img{
+        position: absolute;
+        z-index: 5;
+        top: 165px;
+        left: 760px;
+        width: 480px;
+        height: 654px;
+    }
+    #moact{
+        position: absolute;
+        z-index: 6;
+        top: 680px;
+        left: 980px;
+        width: 300px;
+        height: 70px;
+    }
+    #moact h3{
+        background-color: #a58243;
+        color: white;
+        padding: 20px;
+    }
+    
+    .tech{
+        background-color: #19818f;
+        width: 100%;
+        height: 1500px;
+        position: relative;
+        top: 0;
+    }
+    #herbs img{
+        position: absolute;
+        top: 0;
+        z-index: 0;
+        top: 150px;
+        left: 800px;
+        width: 400px;
+        height: 650px;
+    }
+    #dan img{
+        position: absolute;
+        top: 0;
+        left: 200px;
+        z-index: 1;
+    }
+    #blackclover{
+        background-image: linear-gradient(#0f6171);
+        width: 800px;
+        height: 350px;
+        position: absolute;
+        z-index: 2;
+        top: 250px;
+        left: 300px;
+        color: white;
+        font-size: x-large;
+        padding: 20px;
+        padding-top: 120px;
+    }
+    #real h1{
+        color: white;
+        position: absolute;
+        z-index: 3;
+        top: 280px;
+        left: 200px;
+    }
+    #hair img{
+        position: absolute;
+        top: 900px;
+        left: 350px;
+        z-index: 1;
+    }
+    #pant h3,p{
+        color: white;
+    }
+    #pant p{
+        font-size: larger;
+    } 
+    #pant{
+        background-color: transparent;
+        position: absolute;
+        z-index: 2;
+        top: 1000px;
+        left: 950px;
+    }
+    #bleach{
+        background-image: linear-gradient(#0f6171);
+        position: absolute;
+        z-index: 3;
+        top: 970px;
+        left: 200px;
+        width: 700px;
+        height: 390px;
+    }
+    #fox img{
+        position: absolute;
+        z-index: 4;
+        top: 900px;
+        left: 180px;
+        width: 320px;
+        height: 400px;;
+    }
+    #alxendar{
+        position: absolute;
+        z-index: 5;
+        top: 1200px;
+        left: 150px;
+        background-color: #a58243;
+        width: 350px;
+        height: 70px;
+    }
+    #alxendar h3{
+        color: white;
+        padding: 20px;
+    }
+    #bat img{
+        position: absolute;
+        z-index: 4;
+        top: 900px;
+        left: 550px;
+        width: 320px;
+        height: 500px;
+    }
+    
+    .backimages{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 600px;
+    }
+    #black img{
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: 600px;
+    }
+    #shrap img{
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        z-index: 2;
+        width: 400px;
+        height: 400px;
+    }
+    #ben10{
+        position: absolute;
+        z-index: 3;
+        top: 140px;
+        left: 200px;
+        width: 450px;
+        height: 280px;
+        background-image: linear-gradient(#a58243);
+    }
+    #bolt{
+        position: absolute;
+        z-index: 4;
+        top: 110px;
+        left: 150px;
+        width: 450px;
+        height: 280px;
+        background-image: linear-gradient(#0f6171);
+        padding: 20px;
+    }
+    #bolt h2,p{
+        color: white;
+    }#bolt p{
+        font-size: larger;
+        margin-top: 60px;
+    }
+    .colored{
+        background-color:#19818f;
+        width: 100%;
+        height: 1400px;
+        position: relative;
+        top: 0;
+        z-index: ;
+    }
+    #bunny img{
+        position: absolute;
+        z-index: 1;
+        top: 640px;
+        left: 100px;
+        width: 500px;
+        height: 500px;
+    }
+    #ball{
+        position: absolute;
+        z-index: 2;
+        top: 620px;
+        left: 300px;
+        width: 500px;
+        height: 500px;
+        background-image: linear-gradient(#0f6171);
+    }
+    #bounce{
+        position: absolute;
+        z-index: 2;
+        top: 720px;
+        left: 750px;
+        width: 500px;
+        height: 600px;
+        background-image: linear-gradient(#a58243,#0f6171);
+        box-sizing: border-box;
+        padding: 30px;
+    }
+    #bounce p{
+        margin-top: 90px;
+        font-size: x-large;
+        color: white;
+    }
+    #bounce button{
+        width: 150px;
+        height: 40px;
+        padding: 10px;
+        background-color: transparent;
+        color: white;
+    }
+    #bounce button:hover{
+        background-color: white;
+        color: black;
+    }
+    #finial img{
+        position: absolute;
+        top: 550px;
+        left: 220px;
+        z-index: 7;
+        width: 450px;
+        height: 500px;
+    }
+    #some{
+        position: absolute;
+        z-index: 8;
+        top: 900px;
+        left: 100px;
+        background-color:#a58243;
+        width: 300px;
+        height: 50px;
+        padding: 15px;
+    }
+    #what p{
+        color: white;
+        font-size: larger;
+    }
+    #what{
+        position: absolute;
+        z-index: 8;
+        top: 1150px;
+        left: 100px;
+    }
+    .footer{
+        background-color: #0f6171;
+        width: 100%;
+        height: 300px;
+        position: relative;
+        top: 800px;
+    }
+    #roow{
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer span{
+        text-align: center;
+        justify-content: center;
+    }
+}
